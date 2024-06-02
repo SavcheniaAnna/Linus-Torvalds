@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_projets.css">
+    <title>Projets de Torvalds</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+
+    <div id="header"><a name="top_page">
+        <div id="title">Linus Benedict Torvalds</div>
+        <ul id="menu">
+            <li><a href="main.html">Sa vie</a></li>
+            <li><a href="projets.html">Ses projets</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul> 
+    </a></div>
+
+    <div id="main_information">
+        <div id="main_background"><img src="img/img_projets/background.png"></div>
+    </div>
+
+    <div id="summary" class="information">
+        <h2>Ses projets:</h2>
+        <ol>
+            <div class="summary_parts">
+                <li><a href="#Linux">Linux</a></li>
+                <li><a href="#Git">Git</a></li>
+            </div>
+            <div class="summary_parts">
+                <li><a href="#Gnu">GNU et Gnome</a></li>
+                <li><a href="#Android">Android, Ubuntu</a></li>
+            </div>
+        </ol>
+    </div>
+
+    <div id="linux" class="information">
+        <h2><a name="Linux">Linux 1.0</a></h2>
+        <hr>
+        <div class="all_text">En 1994, Torvalds a présenté Linux 1.0 aux étudiants de l'université d'Helsinki (son code source est disponible sur kernel.org). Il s'agissait de la première version stable adaptée à une utilisation commerciale. Les versions précédentes du CO avaient été entachées de bogues avec une régularité enviable, mais tout cela a changé.</div>
+        <div class="all_text" id="image_linux1"><img src="img/img_projets/linux1.jpg"></div>
+        <p>Le premier logo Linux, apparu en 1996</p>
+        <div class="all_text">Lors de la présentation, Linus m'a expliqué que les systèmes de type UNIX sont incroyablement chers et que tous les étudiants ne peuvent pas se les offrir. Comparez vous-même : DOS coûte 200 marks finlandais (environ 2300 roubles actuels), et UNIX 20 000 (ou 230 000 roubles).</div>
+        <div id="video_linux1">
+            <iframe width="800" height="400" src="https://www.youtube.com/embed/M-X0Yx28Me0?si=TKK2rbU0fCWP17Vo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="all_text">Avant la publication de Torvalds, les ordinateurs utilisant un système d'exploitation ne pouvaient pas toujours lire les données écrites dans un autre système d'exploitation à partir d'une disquette ou d'un contrôleur vidéo.</div>  
+        <div class="all_text">Le noyau Linux était capable de les "comprendre" tous et d'interagir avec eux, au moins au niveau des tâches simples : "écrire un fichier sur un disque", "lire un fichier à partir d'une disquette" ou "afficher une image à l'écran", etc.</div>
+    </div>
+
+    <div id="noyau" class="information">
+        <h2>Noyau Linux</h2>
+        <hr>
+        <div class="all_text">Le noyau Linux est central pour le système d'exploitation de l'ordinateur Linux. Le noyau est l'interface de base entre le hardware d'un ordinateur et ses processus. Elle s'assure de la disponibilité de la mémoire pour les applications Linux à exécuter, optimise les processeurs et en retrouve la configuration système requise entre les applications.<br>Le noyau Linux communique entre le hardware et les applications via des interruptions. Lorsque le hardware souhaite communiquer avec l'application et un système plus vaste, une interruption est émise sur le processeur et le noyau pour gérer efficacement les ressources.</div>
+        <div class="all_text">Le noyau, existant à l'intérieur d'un shell de système d'exploitation dur, contrôle toutes les fonctions principales du hardware respectif, indépendamment de l'appareil, tel que le mobile, la tablette, l'ordinateur de bureau ou portable, le serveur, etc. Le noyau Linux se concentre sur les fonctions essentielles suivantes :</div>
+        <div class="all_text">
+            <ol>
+                <li>La gestion de la mémoire :pour avoir un suivi sur la quantité de mémoire à exploiter et la manière d'y parvenir.</li>
+                <li>La gestion des processus : pour déterminer quels processus peuvent utiliser l'unité centrale (UC) et de quelle manière.</li>
+                <li>Les ^pilotes de périphérique : ils agissent comme un intermédiaire entre le hardware et les applications/processus.</li>
+                <li>Les appels système et sécurité : pour recevoir les demandes de service des processus d'application.</li>
+            </ol>
+        </div>
+    </div>
+        
+    <div id="git" class="information">
+        <h2><a name="Git">Git - un moyen d'être soi-même</a></h2>
+        <hr>
+        <div class="all_text">Torvalds, un introverti, n'imaginait pas qu'il aurait à interagir directement avec autant de personnes du monde entier.</div>
+        <div class="all_text">À l'époque, CVS (Concurrent Versions System), un système de contrôle de version centralisé, était très populaire. Mais Torvalds ne l'aimait pas et il a créé Git, l'outil sans lequel il est difficile d'imaginer le développement en équipe aujourd'hui.</div>
+        <div class="all_text" id="image_git"><img src="img/img_projets/branche_git.jpg"></div>
+        <p>Branche de l'arbre Git<br>pour le noyau Linux</p>
+        <div class="all_text">Git devait permettre à des milliers de programmeurs de publier plus facilement des versions de Linux. Il devait également aider Linus et son équipe à gérer la pile de commentaires et de suggestions.</div>
+        <div class="all_text">Selon l'auteur lui-même, Git n'était qu'une réflexion après coup. Il n'avait pas l'intention d'en faire quelque chose de sérieux, et encore moins de le développer : il a simplement écrit ce dont il avait besoin ici et maintenant. Il serait surpris s'il découvrait comment son prochain projet Git se développerait à l'avenir.</div>
+    </div>
+
+    <div id="gnu" class="information">
+        <h2><a name="Gnu">Linux et ses enfants : GNU et Gnome</a></h2>
+        <hr>
+        <div class="all_text">En 1991, lorsque Linus a présenté la première version de Linux, Richard Stallman et son équipe avaient presque terminé de travailler sur GNU, un analogue entièrement libre d'UNIX.</div>
+        <div class="all_text">Les développeurs rencontraient des difficultés : il leur manquait un noyau pour le système. Ils décident alors de s'adresser à Torvalds. À partir de ce jour, GNU a pris une nouvelle vie : il était possible de l'exécuter sur n'importe quel ordinateur et de le faire fonctionner correctement.</div>
+        <div class="all_text" id="image_gnu"><img src="img/img_projets/gnu.jpg"></div>
+        <p>Voici à quoi ressemblait GNU Debian 1.0</p>
+        <div class="all_text">Après GNU est venu le projet GNOME, qui visait à répondre aux besoins des utilisateurs en matière d'interfaces graphiques. Avant cela, Linux n'était essentiellement qu'un noyau. Son utilisation nécessitait un certain bagage informatique, de sorte que son champ d'application se limitait principalement aux développements professionnels et commerciaux. Avec GNOME, même ceux qui ne sont pas des programmeurs peuvent faire fonctionner le système d'exploitation de Torvalds sur un PC domestique ordinaire.</div>
+        <div class="all_text" id="image_gnome"><img src="img/img_projets/gnome.jpg"></div>
+        <p>GNOME 1.0 est la première version<br>stable du système d'interface graphique.</p>
+    </div>
+
+    <div id="android" class="information">
+        <h2><a name="Android">Les apôtres de Linux : Android, Ubuntu</a></h2>
+        <hr>
+        <div class="all_text">La compétition réussie de Torvalds avec Microsoft en a inspiré d'autres, comme Android, une société fondée en 2003 par Andy Rubin, Richie Miner, Nick Shears et Chris White.</div>
+        <div class="all_text">En se basant sur le noyau Linux, ils l'ont légèrement modifié et ont obtenu un nouveau système d'exploitation pour appareils mobiles qui prend en compte la géolocalisation et les paramètres personnels de leurs propriétaires.</div>
+        <div class="all_text">En 2005, Rubin a tenté de négocier la vente d'Android à Samsung et HTC, mais il a été révélé plus tard qu'ils avaient été achetés par Google pour au moins 50 millions de dollars. Aujourd'hui, 2,8 milliards d'appareils Android sont utilisés dans le monde.</div>
+        <div class="all_text" id="image_android"><img src="img/img_projets/android1.jpg"></div>
+        <p>Android 1.0.</p>
+        <div class="all_text">Linux a également continué à prospérer. En 2014, sa distribution la plus populaire, Ubuntu, comptait 22 millions d'utilisateurs.</div>
+        <div class="all_text" id="image_ubuntu"><img src="img/img_projets/Ubuntu4.jpg"></div>
+        <div class="all_text">Linux est devenu le plus populaire non seulement dans l'environnement commercial, mais aussi dans le domaine du haut de gamme. Toutes les machines les plus puissantes du classement des 500 premiers superordinateurs fonctionnent sous Linux.</div>
+        <p>Ubuntu 4.1 avait une apparence<br>très différente de celle<br>que tout le monde a l'habitude<br>de voir aujourd'hui.</p>
+    </div>
+</body>
+
+<footer id="footer">
+    <div class="footer-left">@Savchenia Hanna</div>
+    <div class="footer-icons">
+        <a href="https://m.facebook.com/people/Linus-Torvalds/100045443108571/?locale=en_GB"><img src="img/img_main/facebook.png"></a>
+        <a href="https://twitter.com/Linus__Torvalds"><img src="img/img_main/twiter.png"></a>
+        <a href="https://www.instagram.com/p/Cqws7V3NK8p/?img_index=1"><img src="img/img_main/instagram.png"></a>
+    </div>
+    <div class="footer-right">
+        <a href="#top_page"><span class="back-to-top-text">Back to Top</span><a href="#top" class="back-to-top">&#8593;</a></a>
+    </div>
+</footer>
+
+<script src="script_projets.js"></script>
+
+</html>

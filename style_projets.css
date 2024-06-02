@@ -1,0 +1,164 @@
+body{margin: 0;
+    font-family: Roboto, Arial, Georgia;
+    font-weight: 300;
+    overflow-x:hidden;
+}
+
+li{line-height: 2;}
+
+ul {list-style: disc;}
+
+li a{text-decoration: none;}
+
+.information{
+    width: 86vw;
+    margin-left: 7vw;
+}
+
+#header{
+    position: relative;
+    background-color: #000000;
+    height: 10vh;
+    text-align: center;
+}
+
+#title{
+    position: absolute;
+    top: 3vh;
+    left: 3%;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+#menu{
+    list-style-type: none;
+    position: absolute;
+    top: 4vh;
+    right: 3%;
+    width: 300px;
+    
+}
+
+#menu li{
+    display: inline;
+    font-size: 16px;
+    padding: 0% 4% 0% 4%;
+    
+}
+
+#menu li a{color: #ffffff;}
+
+#main_background img{
+    overflow: hidden;
+    width: 100vw;
+}
+
+#main_information{
+    position: relative;
+}
+
+#summary{
+    position: relative;
+    top:13vh;
+    font-size: 21px;
+}
+
+.summary_parts{
+    display: inline-block;
+    margin-right: 20vw;
+    position: relative;
+    left: 22vw;
+    font-size: 19px;
+}
+
+.summary_parts li a {color: #000000;}
+
+
+#linux{
+    position: relative;
+    top:20vh;
+    font-size: 21px; 
+}
+
+.all_text{
+    margin-top: 5vh;
+}
+
+#image_linux1 img, #image_git img, #image_gnu img, #image_gnome img, #image_android img, #image_ubuntu img{
+    width: 50vw;
+}
+
+#image_linux1, #video_linux1, #image_git, #image_gnu, #image_gnome, #image_android, #image_ubuntu{
+    text-align: center;
+}
+
+#linux p, #git p, #gnu p, #android p{
+    margin-left: 0px;
+    font-size: 15px;
+    position: relative;
+    left: 70vw;
+    bottom: 20vw;
+}
+
+#video_linux1{
+    margin-top: 5vh;
+}
+
+#noyau{
+    position: relative;
+    top:30vh;
+    font-size: 21px; 
+}
+
+#git{
+    position: relative;
+    top:37vh;
+    font-size: 21px; 
+}
+
+#gnu{
+    position: relative;
+    top:47vh;
+    font-size: 21px; 
+}
+
+#android{
+    position: relative;
+    top:52vh;
+    font-size: 21px; 
+}
+
+#footer{
+    position: relative;
+    top: 50vh;
+}
+footer {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.back-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.back-to-top-text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    margin-right: 5px;
+}

@@ -1,0 +1,338 @@
+body{margin: 0;
+    font-family: Roboto, Arial, Georgia;
+    font-weight: 300;
+    overflow-x:hidden;
+}
+
+li{line-height: 2;}
+
+ul {list-style: disc;}
+
+li span {font-weight: 700;}
+
+li a{text-decoration: none;}
+
+button a{text-decoration: none;
+         color: #ff6200;
+}
+
+.information{
+    width: 86vw;
+    margin-left: 7vw;
+}
+
+#header{
+    position: relative;
+    background-color: #000000;
+    height: 10vh;
+    text-align: center;
+}
+
+#title{
+    position: absolute;
+    top: 3vh;
+    left: 3%;
+    font-size: 23px;
+    color: #ffffff;
+}
+
+#menu{
+    list-style-type: none;
+    position: absolute;
+    top: 4vh;
+    right: 3%;
+    width: 300px;
+    
+}
+
+#menu li{
+    display: inline;
+    font-size: 16px;
+    padding: 0% 4% 0% 4%;
+    
+}
+
+#menu li a{color: #ffffff;}
+
+#main_background img{
+    overflow: hidden;
+    width: 100vw;
+}
+
+#main_information{
+    position: relative;
+}
+
+#round img{
+    width: 11%;
+    border-radius: 100px; 
+    border: 2px solid #ffffff;
+    position: absolute;
+    bottom: 4%;
+    left: 45vw
+}
+
+#main_text{
+    text-align: center;
+    position: relative;
+    top: 10vh;
+    left: 1vw;
+}
+
+#summary{
+    position: relative;
+    top:13vh;
+    font-size: 21px;
+}
+
+.summary_parts{
+    display: inline-block;
+    margin-right: 20vw;
+    position: relative;
+    left: 22vw;
+    font-size: 19px;
+}
+
+.summary_parts li a {color: #000000;}
+
+#biography{
+    margin: 6vw;
+    padding: 1vw;
+    position: relative;
+    top:13vh;
+    font-size: 21px;
+    background-color: #f5f5f5;
+}
+
+#biography img{
+    width: 24vw;
+    position: absolute;
+    bottom: 2vw;
+    left:55vw;
+}
+
+#enfance{
+    position: relative;
+    top:13vh;
+    font-size: 21px; 
+}
+
+.all_text{
+    margin-top: 5vh;
+}
+
+#enfance img, #adolescence img, #debuts_creatifs img, #image_minix img, #premiere_Linux img{
+    width: 50vw;
+}
+
+#image_enfance, #image_premier_ordinateur, #debuts_creatifs, #premiere_Linux{
+    text-align: center;
+}
+
+#enfance p, #adolescence p, #debut_creatif p{
+    margin-left: 0px;
+    font-size: 15px;
+    position: relative;
+    left: 70vw;
+    bottom: 25vw;
+}
+
+.bi-quote, #quote1 span, #quote2 span{
+    color: #ff6200;
+}
+
+#quote1{
+    bottom: 5vh;
+    position:relative;
+    left: 10vw;
+    width:50vw;
+}
+
+#quote1 div{
+    position: relative;
+    left: 17vh;
+    bottom: 17vh;
+}
+
+#quote1 p{
+    font-size: 15px;
+    position: absolute;
+    left: 17vh;
+    top: 16vh;
+}
+
+#adolescence{
+    position: relative;
+    top:21vh;
+    font-size: 21px; 
+}
+
+#debut_creatif{
+    position: relative;
+    top:23vh;
+    font-size: 21px; 
+}
+
+#quote2 {
+    top:2vh;
+    position:relative;
+    left: 11vw;
+    width:51vw;
+    height: auto;
+}
+
+#quote2 div{
+    position: relative;
+    left: 15vh;
+    bottom: 17vh;
+     
+}
+
+#quote2 p{
+    font-size: 15px;
+    position:absolute;
+    left: 15vh;
+    bottom: 8vh;
+}
+
+#image_minix{
+    text-align: center;
+    position: relative;
+    
+}
+
+#minix_text{
+    margin-top: 0vh;
+}
+
+#espace{
+    position: absolute;
+    bottom: 2vh;
+}
+
+#premiere_Linux{
+    position: relative;
+    top: 5vh;
+}
+button{
+    text-align: center;
+    border: #ff6200 solid 3px;
+    padding: 15px 25px 15px 25px;
+}
+.button{
+    font-size: 16px;
+    font-weight: 500;
+    position: relative;
+    left: 29vw;
+    margin: 5vh 0vw;
+}
+
+#silicon_valley{
+    position: relative;
+    top:27vh;
+    font-size: 21px; 
+}
+
+#silicon_valley_text{
+    width: 45vw;
+}
+
+#portrait1 img{
+    width: 20vw;
+}
+
+#portrait1{
+    position: absolute;
+    top: 14vh;
+    right: 16vw;
+}
+
+#portrait2 img{
+    width: 15vw;
+}
+
+#portrait2{
+    position: absolute;
+    top: 66vh;
+    right: 0vw;
+}
+
+#amis{
+    position: relative;
+    top:40vh;
+    font-size: 21px; 
+}
+
+#amis_text_part1, #amis_text_part2{
+    width: 40vw;
+}
+
+#image_amis img{
+    width: 29vw;
+}
+
+#image_amis{
+    text-align: center;
+    margin: 2vh 0vw 2vh 0vw;
+}
+
+#amis_text_part1 p{
+    font-size: 15px;
+}
+
+#amis_text_part2{
+    position: absolute;
+    top: 9vh;
+    right: 2vw;
+}
+
+#faits{
+    position: relative;
+    top:52vh;
+    font-size: 21px;
+}
+
+#faits h2{
+    text-align: center;
+}
+
+#faits ol{
+    position: relative;
+    left: 13vw;
+    width: 60vw;
+}
+
+#footer{
+    position: relative;
+    top: 57vh;
+}
+footer {
+    background-color: #101010;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+.back-to-top {
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.back-to-top-text {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    margin-right: 5px;
+}
